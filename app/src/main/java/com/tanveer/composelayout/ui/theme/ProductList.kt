@@ -34,10 +34,10 @@ import com.tanveer.composelayout.product
 fun ProductList() {
 
     val products = listOf(
-        product("Nike Shoe", "$10,000", "*4.5(120 Reviews)", R.drawable.shoe1),
-        product("Jordan Shoe", "$10,000", "*4.5(120 Reviews)", R.drawable.shoe2),
-        product("Adiddas Shoe", "$10,000", "*4.5(120 Reviews)", R.drawable.shoe3),
-        product("Puma Shoe", "$10,000", "*4.5(120 Reviews)", R.drawable.shoe4)
+        product("Nike Shoe", "$10,000", "*4.5(1200 Reviews)", R.drawable.shoe1),
+        product("Jordan Shoe", "$35,000", "*4.5(150 Reviews)", R.drawable.shoe2),
+        product("Adiddas Shoe", "$20,000", "*4.5(110 Reviews)", R.drawable.shoe3),
+        product("Puma Shoe", "$20,000", "*4.5(190 Reviews)", R.drawable.shoe4)
     )
 
     var query by remember { mutableStateOf("") }
